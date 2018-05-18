@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.v7.widget.CardView
+        android:id="@+id/seller_row_item"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:cardCornerRadius="3dp"
+        android:layout_margin="5dp"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+            <TextView
+            android:id="@+id/seller_name_place_order_item_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seller name"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+            <TextView
+            android:id="@+id/seller_address_place_order_item_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+                android:textSize="15dp"
+            android:text="address" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>

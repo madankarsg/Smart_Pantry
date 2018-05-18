@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/buy_item_menu_hotel"
+            android:title="Items To Order"
+            android:icon="@drawable/ic_item_to_order"/>
+        <item
+            android:id="@+id/ordered_items_menu"
+            android:icon="@drawable/ic_ordered_items"
+            android:title="Ordered Items" />
+        <item
+            android:id="@+id/buyed_items_menu_hotel"
+            android:icon="@drawable/ic_buyed_items"
+            android:title="Delivered Items" />
+        <item
+            android:id="@+id/check_inventory_menu_hotel"
+            android:icon="@drawable/ic_check_pantry"
+            android:title="Check Pantry" />
+        <item
+            android:id="@+id/nearby_seller_menu_hotel"
+            android:icon="@drawable/ic_nearby_seller"
+            android:title="Nearby Sellers" />
+        <item
+            android:id="@+id/auto_buy_menu_hotel"
+            android:icon="@drawable/ic_autobuy_setting"
+            android:title="AutoBuy Setting" />
+        <item
+            android:id="@+id/add_item_to_pantry_menu_hotel"
+            android:icon="@drawable/ic_add_pantry_items"
+            android:title="Add Pantry Item" />
+        <item
+            android:id="@+id/logout_hotel_menu"
+            android:icon="@drawable/ic_logout"
+            android:title="Log Out" />
+    </group>
+</menu>

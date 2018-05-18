@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="10dp"
+    android:background="@color/colorPrimaryDark"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="40dp"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_local_grocery_store" />
+    <TextView
+        android:id="@+id/hotel_name_nav_header_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seller Name"
+        android:textStyle="bold|italic"
+        android:textColor="#6eedef"
+        android:layout_marginTop="20dp"
+        android:textSize="20dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+    <TextView
+        android:layout_marginTop="5dp"
+        android:textColor="#63dce2"
+        android:text="Location"
+        android:id="@+id/authority_name_nav_et"
+        android:layout_width="match_parent"
+        android:textSize="18dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
